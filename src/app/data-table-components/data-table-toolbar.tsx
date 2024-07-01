@@ -70,7 +70,7 @@ export function DataTableToolbar<TData>({
         <CalendarDatePicker
           date={dateRange}
           onDateSelect={handleDateSelect}
-          className="w-[250px]"
+          className="w-[250px] h-8"
           variant="outline"
         />
       </div>
